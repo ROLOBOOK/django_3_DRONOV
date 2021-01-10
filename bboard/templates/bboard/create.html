@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Добавление объявления :: Доска объявлений</title>
-</head>
-<body>
+{% extends "layout/base.html" %}
+
+   {% block title %}Добавление объявления{% endblock %}
+
+{% block content %}
 <h1>Добавление объявления</h1>
 <div>
     <a href="{% url 'index' %}">Главная</a>
@@ -17,5 +15,5 @@
     {{ form.as_p }}
     <input type="submit" value="Добавить">
 </form>
-</body>
-</html>
+
+{% endblock %}
