@@ -1,0 +1,20 @@
+header h1 {
+    font-size: 40pt;
+    text-transform: uppercase;
+    text-aling: center;
+    background: url("bd.jpg") left / auto 100% no-repeat;
+}
+
+nav {
+font-size: 16pt;
+width: 150px;
+float: left;
+}
+
+nev a {
+    display: block;
+    margin: 10px 0px;
+}
+section {
+margin-left: 170px;
+}
